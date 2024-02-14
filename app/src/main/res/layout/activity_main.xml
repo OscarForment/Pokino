@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:layout_above="@+id/switchLayout"
+        android:layout_marginBottom="16dp">
+
+        <!-- Primer fila -->
+        <ToggleButton
+            android:id="@+id/button1"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:textOn="3"
+            android:textOff="3"
+            android:drawableEnd="@drawable/oros"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button2"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:textOn="3"
+            android:textOff="3"
+            android:drawableEnd="@drawable/espadas"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button3"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:textOn="3"
+            android:textOff="3"
+            android:gravity="center"
+            android:drawableEnd="@drawable/bastos"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button4"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:textOn="3"
+            android:textOff="3"
+            android:drawableEnd="@drawable/copas"
+            android:gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button5"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:height="8dp"
+            android:textOn="11"
+            android:textOff="11"
+            android:drawableEnd="@drawable/bastos"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <!-- Segunda fila -->
+        <ToggleButton
+            android:id="@+id/button6"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/bastos"
+            android:textOn="6"
+            android:textOff="6"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button7"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button8"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button9"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button10"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <!-- Tercera fila -->
+        <ToggleButton
+            android:id="@+id/button11"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="11"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button12"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button13"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="13"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button14"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="14"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button15"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <!-- Cuarta fila -->
+        <ToggleButton
+            android:id="@+id/button16"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="16"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button17"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="17"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button18"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="18"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button19"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="19"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button20"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <!-- Quinta fila -->
+        <ToggleButton
+            android:id="@+id/button21"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="21"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button22"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="22"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button23"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="23"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button24"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="24"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+        <ToggleButton
+            android:id="@+id/button25"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1dp"/>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/switchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3">
+
+        <!-- Dos Switches a la izquierda -->
+
+        <!-- Botón de Editar -->
+        <Switch
+            android:id="@+id/switchCentro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centro" />
+
+        <Switch
+            android:id="@+id/switchPokino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pokino" />
+
+        <!-- Dos Switches a la derecha -->
+
+        <ToggleButton
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Editar"
+            android:textOff="Editar"
+            android:textOn="Cancelar" />
+
+        <Switch
+            android:id="@+id/switchEsquinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esquinas" />
+
+        <Switch
+            android:id="@+id/switchLinea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linea" />
+
+        <!-- Botón de Reiniciar -->
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reiniciar" />
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar" />
+        <Button
+            android:id="@+id/randomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aleatorio" />
+    </GridLayout>
+
+
+</RelativeLayout>

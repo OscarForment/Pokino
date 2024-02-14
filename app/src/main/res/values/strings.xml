@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pokino</string>
+    <string name="choose_suit">Selecciona el palo</string>
+    <string name="choose_number">Selecciona el numero</string>
+</resources>
