@@ -68,7 +68,7 @@ class MainActivity : Activity() {
         val searchButton: Button = findViewById(R.id.searchButton)
         searchButton.setOnClickListener { searchCards() }
         val randomButton: Button = findViewById(R.id.randomButton)
-        randomButton.setOnClickListener { randomCards() }
+        randomButton.setOnClickListener { confirmationRandomCards() }
 
 
     }
@@ -271,6 +271,24 @@ class MainActivity : Activity() {
         pokino.isChecked=false
         linea.isChecked=false
     }
+
+    private fun confirmationRandomCards() {
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Confirmar acción")
+        builder.setMessage("¿Estás seguro de que deseas randomizar las cartas?")
+
+        builder.setPositiveButton("Sí") { _, _ ->
+            // Si el usuario hace clic en Sí, llama a la función randomCards()
+            randomCards()
+        }
+
+        builder.setNegativeButton("Cancelar") { dialog, _ ->
+            dialog.dismiss() // Cierra el diálogo sin hacer nada
+        }
+
+        val dialog = builder.create()
+        dialog.show()
+    }
     private fun randomCards() {
         val (numpalo, numero) = generateNumbers()
         val palos = intArrayOf(R.drawable.oros, R.drawable.espadas, R.drawable.bastos, R.drawable.copas)
@@ -430,7 +448,8 @@ class MainActivity : Activity() {
         if (vibrator?.hasVibrator() == true) {
             // Patrón de vibración (en milisegundos)
             val pattern = longArrayOf(0, 200, 100, 200)
-            vibrator.vibrate(pattern, -1)
+            //vibrator.vibrate(pattern, 255)
+            vibrator.vibrate(400)
         }
     }
 
