@@ -5,20 +5,16 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <Spinner
-        android:id="@+id/numberSpinner"
+    <NumberPicker
+        android:id="@+id/numberPicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:entries="@array/numbers_1_to_12"
-        android:prompt="@string/choose_number"/>
+        android:layout_marginTop="8dp"/>
 
-    <Spinner
-        android:id="@+id/spinner"
+    <NumberPicker
+        android:id="@+id/stringNumberPicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:entries="@array/suit_options"
-        android:prompt="@string/choose_suit"/>
+        android:layout_marginTop="8dp"/>
 
 </LinearLayout>
